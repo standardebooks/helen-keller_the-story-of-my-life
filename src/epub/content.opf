@@ -55,13 +55,13 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Helen_Keller</meta>
 		<meta property="se:url.author-1ity.nacoaf" refines="#author-1">http://id.loc.gov/author-1ities/names/n83158974</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
-		<meta property="role" refines="#author-1" scheme="marc:relators">ill</meta>
+		<meta property="se:role" refines="#author-1" scheme="marc:relators">ill</meta>
 		<dc:contributor id="author-2">Anne Sullivan</dc:contributor>
 		<meta property="file-as" refines="#author-2">Sullivan, Anne</meta>
 		<meta property="se:name.person.full-name" refines="#author-2">Anne Sullivan Macy</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/Anne_Sullivan</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/n83158977</meta>
-		<meta property="role" refines="#author-2" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#author-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author-2" scheme="marc:relators">wst</meta>
 		<dc:contributor id="artist">George Frederic Watts</dc:contributor>
 		<meta property="file-as" refines="#artist">Watts, George Frederic</meta>
