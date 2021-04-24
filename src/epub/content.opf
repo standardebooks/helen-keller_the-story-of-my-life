@@ -36,12 +36,12 @@
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2009122912</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Autobiography</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2397</dc:source>
 		<dc:source>https://archive.org/details/storyofmylife00hele</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
@@ -49,26 +49,39 @@
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Story_of_My_Life</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/helen-keller_the-story-of-my-life</meta>
-		<dc:creator id="author">Helen Keller</dc:creator>
-		<meta property="file-as" refines="#author">Keller, Helen</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Helen_Keller</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n83158974</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:creator id="author-1">Helen Keller</dc:creator>
+		<meta property="file-as" refines="#author-1">Keller, Helen</meta>
+		<meta property="se:name.person.full-name" refines="#author-1">Helen Adams Keller</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Helen_Keller</meta>
+		<meta property="se:url.author-1ity.nacoaf" refines="#author-1">http://id.loc.gov/author-1ities/names/n83158974</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">ill</meta>
+		<dc:contributor id="author-2">Anne Sullivan</dc:contributor>
+		<meta property="file-as" refines="#author-2">Sullivan, Anne</meta>
+		<meta property="se:name.person.full-name" refines="#author-2">Anne Sullivan Macy</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/Anne_Sullivan</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/n83158977</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">wst</meta>
 		<dc:contributor id="artist">George Frederic Watts</dc:contributor>
 		<meta property="file-as" refines="#artist">Watts, George Frederic</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Frederic_Watts</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50043705</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="editor">John Albert Macy</dc:contributor>
+		<meta property="file-as" refines="#editor">Macy, John Albert</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n50043613</meta>
+		<meta property="se:role" refines="#editor" scheme="marc:relators">aui</meta>
 		<dc:contributor id="transcriber-1">Diane Bean</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Bean, Diane</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
+		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
