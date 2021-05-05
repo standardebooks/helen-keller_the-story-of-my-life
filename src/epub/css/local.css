@@ -16,8 +16,11 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="se:letter.dateline"]{
+[epub|type~="z3998:letter"] [epub|type~="se:letter.dateline"],
+[epub|type~="z3998:diary-entry"] [epub|type~="se:diary.dateline"]{
 	text-align: right;
+	font-variant: normal;
+	margin-bottom: 0;
 }
 
 [epub|type~="z3998:letter"] header + p{
@@ -171,6 +174,7 @@ table[epub|type~="z3998:drama"]{
 	}
 }
 
-#letters > [epub|type~="z3998:letter"]{
+#letters > [epub|type~="z3998:letter"],
+#chapter-3-3 > hr ~ [epub|type~="z3998:letter"]{
 	margin: 2em 0;
 }
