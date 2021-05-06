@@ -63,15 +63,17 @@
 		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/n83158977</meta>
 		<meta property="se:role" refines="#author-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author-2" scheme="marc:relators">wst</meta>
+		<dc:contributor id="author-3">John Albert Macy</dc:contributor>
+		<meta property="file-as" refines="#author-3">Macy, John Albert</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-3">http://id.loc.gov/authorities/names/n50043613</meta>
+		<meta property="se:role" refines="#author-3" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#author-3" scheme="marc:relators">aui</meta>
+		<meta property="se:role" refines="#author-3" scheme="marc:relators">wst</meta>
 		<dc:contributor id="artist">George Frederic Watts</dc:contributor>
 		<meta property="file-as" refines="#artist">Watts, George Frederic</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Frederic_Watts</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50043705</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="editor">John Albert Macy</dc:contributor>
-		<meta property="file-as" refines="#editor">Macy, John Albert</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n50043613</meta>
-		<meta property="se:role" refines="#editor" scheme="marc:relators">aui</meta>
 		<dc:contributor id="transcriber-1">Diane Bean</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Bean, Diane</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
