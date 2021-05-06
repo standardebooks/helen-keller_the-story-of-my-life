@@ -175,6 +175,7 @@ table[epub|type~="z3998:drama"]{
 }
 
 #letters > [epub|type~="z3998:letter"],
-#chapter-3-3 > hr ~ [epub|type~="z3998:letter"]{
+#chapter-3-3 > hr ~ [epub|type~="z3998:letter"],
+#chapter-3-4 > blockquote{
 	margin: 2em 0;
 }
