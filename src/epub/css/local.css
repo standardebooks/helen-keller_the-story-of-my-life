@@ -164,6 +164,13 @@ table[epub|type~="z3998:drama"]{
 	font-variant: all-small-caps;
 }
 
+#letters > [epub|type~="z3998:letter"],
+#chapter-3-3 > hr ~ [epub|type~="z3998:letter"],
+#chapter-3-4 > blockquote,
+#chapter-3-5 > blockquote{
+	margin: 2em 0;
+}
+
 @supports(display: flex){
 	#chapter-3-5 div{
 		display: flex;
@@ -171,11 +178,12 @@ table[epub|type~="z3998:drama"]{
 
 	#chapter-3-5 div > blockquote{
 		flex: 1;
+		margin-left: 1em;
+		margin-right: 0;
 	}
-}
 
-#letters > [epub|type~="z3998:letter"],
-#chapter-3-3 > hr ~ [epub|type~="z3998:letter"],
-#chapter-3-4 > blockquote{
-	margin: 2em 0;
+	#chapter-3-5 div > blockquote:first-child{
+		margin-left: 0;
+		margin-right: 1em;
+	}
 }
