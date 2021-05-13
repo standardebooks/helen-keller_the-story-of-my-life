@@ -2,12 +2,6 @@
 <se-lint-ignore>
 	<file path="letters.xhtml">
 		<ignore>
-			<code>t-007</code>
-			<reason>Harper’s Magazine has the ’s as part of the title.</reason>
-		</ignore>
-	</file>
-	<file path="letters.xhtml">
-		<ignore>
 			<code>t-029</code>
 			<reason>Juvenile letters are spelled without caps.</reason>
 		</ignore>
