@@ -30,6 +30,10 @@ footer{
 	font-variant: small-caps;
 }
 
+p[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
 	text-align: initial;
