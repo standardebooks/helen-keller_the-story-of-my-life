@@ -33,7 +33,7 @@
 		<dc:subject id="subject-1">Keller, Helen, 1880-1968</dc:subject>
 		<dc:subject id="subject-2">Deafblind women -- United States -- Biography</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="term" refines="#subject-1">n83158974</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2009122912</meta>
 		<meta property="se:subject">Autobiography</meta>
