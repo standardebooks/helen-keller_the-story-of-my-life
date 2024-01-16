@@ -53,7 +53,7 @@
 		<meta property="file-as" refines="#author-1">Keller, Helen</meta>
 		<meta property="se:name.person.full-name" refines="#author-1">Helen Adams Keller</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Helen_Keller</meta>
-		<meta property="se:url.author-1ity.nacoaf" refines="#author-1">http://id.loc.gov/author-1ities/names/n83158974</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-1">http://id.loc.gov/authorities/names/n83158974</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">ill</meta>
 		<dc:contributor id="author-2">Anne Sullivan</dc:contributor>
