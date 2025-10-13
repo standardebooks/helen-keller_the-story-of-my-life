@@ -67,7 +67,7 @@
 		<meta property="file-as" refines="#author-3">Macy, John Albert</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-3">http://id.loc.gov/authorities/names/n50043613</meta>
 		<meta property="role" refines="#author-3" scheme="marc:relators">ann</meta>
-		<meta property="role" refines="#author-3" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author-3" scheme="marc:relators">win</meta>
 		<meta property="role" refines="#author-3" scheme="marc:relators">wst</meta>
 		<dc:contributor id="artist">George Frederic Watts</dc:contributor>
 		<meta property="file-as" refines="#artist">Watts, George Frederic</meta>
